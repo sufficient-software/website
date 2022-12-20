@@ -1,0 +1,24 @@
+html {
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: monospace;
+  max-width: 75ch;
+  padding: 2rem;
+  margin: auto;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  color: #222222;
+}
+
+a, h2 {
+  font-weight: bold;
+  color: #076678;
+}
+
+a.home {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sufficient Software - Blog</title>
+    <style>{% include "website.css" %}</style>
+  </head>
+  <body>
+    <h1><a class="home" href="/">Sufficient Software</a> Blog</h1>
+    <h2>{{ title }}</h2>
+    <article>
+      {{ content || safe}}
+    </article>
+    <a href="/blog">Back to all posts</a>
+  </body>
+</html>

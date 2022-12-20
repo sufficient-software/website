@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sufficient Software - Blog</title>
+    <style>{% include "website.css" %}</style>
+  </head>
+  <body>
+    <h1><a class="home" href="/">Sufficient Software</a> Blog</h1>
+    <ul>
+      {%- for post in collections.post -%}
+        <li {% if page.url == post.url %} aria-current="page"{% endif %}>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </body>
+</html>
