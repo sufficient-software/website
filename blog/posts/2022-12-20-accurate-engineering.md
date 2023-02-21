@@ -2,6 +2,7 @@
 layout: blog.liquid
 tags: post
 title: Accurate vs. Precision Engineering
+date: 2022-12-20
 permalink: "blog/accurate-engineering/index.html"
 ---
 
